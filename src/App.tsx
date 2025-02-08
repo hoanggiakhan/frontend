@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes, Navigate, HashRouter } from "react-router-dom";
+import {  Route, Routes, Navigate, HashRouter } from "react-router-dom";
 import BudgetManager from "./components/test/BudgetManager";
 import CategoryManager from "./components/test/CategoryManager";
 import Dashboard from "./components/test/Dashboard";
