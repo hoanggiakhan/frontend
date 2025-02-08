@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
+import { BrowserRouter, Route, Routes, Navigate, HashRouter } from "react-router-dom";
 import BudgetManager from "./components/test/BudgetManager";
 import CategoryManager from "./components/test/CategoryManager";
 import Dashboard from "./components/test/Dashboard";
@@ -30,7 +30,7 @@ function ProtectedRoute({ children }: { children: JSX.Element }) {
 function App() {
   return (
     <AuthProvider>
-      <BrowserRouter>
+        <HashRouter>
         <Routes>
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
@@ -54,7 +54,7 @@ function App() {
             }
           />
         </Routes>
-      </BrowserRouter>
+        </HashRouter>
     </AuthProvider>
   );
 }

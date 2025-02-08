@@ -1,2 +1,2 @@
-export const URL ="https://backend-8omu.onrender.com"
+export const URL ="https://backend-txrd.onrender.com"
 // "http://localhost:8080"
