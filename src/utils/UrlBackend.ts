@@ -1,3 +1,3 @@
-export const URL = "https://backend-three-alpha-34.vercel.app"
+export const URL = "https://backend-txrd.onrender.com"
 //"https://backend-txrd.onrender.com"
 // "http://localhost:8080"

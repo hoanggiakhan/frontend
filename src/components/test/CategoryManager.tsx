@@ -4,7 +4,7 @@ import axios from "axios";
 import { getIdUserByToken } from "../../utils/JwtService";
 import { URL } from "../../utils/UrlBackend";
 
-interface Category {
+export interface Category {
   id: string;
   name: string;
   type: "income" | "expense";

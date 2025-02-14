@@ -11,6 +11,7 @@ import { AuthProvider, useAuth } from "./utils/AuthContext";
 import { JSX } from "react";
 import DebtManager from "./components/test/DebtManager.tsx";
 import RegisterPage from "./components/page/RegisterPage.tsx";
+import Profile from "./components/page/Profile.tsx";
 
 function ProtectedRoute({ children }: { children: JSX.Element }) {
   const { isAuthenticated, isLoading } = useAuth();
@@ -48,6 +49,7 @@ function App() {
                     <Route path="/budgets" element={<BudgetManager />} />
                     <Route path="/debts" element={<DebtManager />} />
                     <Route path="*" element={<Navigate to="/dashboard" />} />
+                    <Route path="/profile" element={<Profile/>}/>
                   </Routes>
                 </>
               </ProtectedRoute>
