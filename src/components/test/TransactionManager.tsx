@@ -6,7 +6,7 @@ import { getIdUserByToken } from "../../utils/JwtService";
 import { Category } from "./CategoryManager";
 import moment from "moment";
 
-interface Transaction {
+export interface Transaction {
   id: number;
   date: string;
   category: string;

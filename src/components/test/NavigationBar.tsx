@@ -29,11 +29,11 @@ const NavigationBar: React.FC = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link as={Link} to="/dashboard">Dashboard</Nav.Link>
-            <Nav.Link as={Link} to="/reports">Báo Cáo</Nav.Link>
-            <Nav.Link as={Link} to="/transactions">Giao Dịch</Nav.Link>
             <Nav.Link as={Link} to="/categorys">Danh mục</Nav.Link>
             <Nav.Link as={Link} to="/budgets">Ngân sách</Nav.Link>
+            <Nav.Link as={Link} to="/transactions">Giao Dịch</Nav.Link>
             <Nav.Link as={Link} to="/debts">Vay/nợ</Nav.Link>
+            <Nav.Link as={Link} to="/reports">Báo Cáo</Nav.Link>
             <Nav.Link as={Link} to="/settings">Cài Đặt</Nav.Link>
           </Nav>
           <Nav className="d-flex align-items-center">
